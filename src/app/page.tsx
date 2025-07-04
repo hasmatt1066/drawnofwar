@@ -1,9 +1,8 @@
-import { MainLayout } from '@/components/layout';
 import { Button } from '@/components/ui';
 
 export default function Home() {
   return (
-    <MainLayout>
+    <>
       <div className="text-center py-20">
         <h1 className="text-5xl font-bold text-white mb-4">
           Welcome to Drawn of War 2
@@ -39,6 +38,6 @@ export default function Home() {
           <p className="text-gray-400">Engage in strategic territorial warfare across multiple lanes</p>
         </div>
       </div>
-    </MainLayout>
+    </>
   );
 }
