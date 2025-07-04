@@ -77,6 +77,8 @@ npm run dev
 # Open http://localhost:3000
 ```
 
+**Note for Windows Users**: The development server has been configured to work properly on Windows. Simply use `npm run dev` to start the server.
+
 ### Development Approach
 We're following a **UI-First approach** with mock services:
 1. Build complete UI with realistic mock data

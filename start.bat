@@ -1,0 +1,3 @@
+@echo off
+echo Starting Drawn of War 2 development server...
+node node_modules\next\dist\bin\next dev --turbopack

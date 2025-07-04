@@ -30,9 +30,11 @@
 - [x] Set up project folder structure
 - [x] Create basic UI component library (Button, Input, Card, Modal)
 - [x] Initialize Git repository and push to GitHub
+- [x] Configure Windows-compatible development scripts
+- [x] Create navigation system and core page layouts
 
 ### 🔄 In Progress Tasks
-- [ ] **CURRENT**: Building UI Shell and Core Pages
+- [ ] **CURRENT**: Enhancing UI and implementing mock services
 
 ### ⏳ Pending Tasks (UI-First Approach)
 
