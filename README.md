@@ -1,5 +1,10 @@
 # 🎨 Drawn of War 2 - Complete Project Documentation
 
+## 🚀 Development Status
+**Current Approach**: UI-First Development with Mock Services  
+**Progress**: Foundation Complete, Building UI Shell  
+**Next Steps**: Landing Page and Core Navigation  
+
 ## 📋 Project Overview
 
 Drawn of War 2 is a next-generation real-time multiplayer battle game where players create armies by drawing creatures, which are then transformed into 3D units using AI. This comprehensive documentation provides detailed guidance for building a fully-fleshed MVP with:
@@ -57,10 +62,34 @@ Drawn of War 2 is a next-generation real-time multiplayer battle game where play
 
 ## 🚀 Getting Started
 
-1. **Review Architecture**: Start with `/docs/architecture/system-overview.md`
-2. **Understand User Journey**: Read `/docs/user-stories/complete-user-journey.md`
-3. **Check Technical Requirements**: Review `/docs/technical/tech-stack.md`
-4. **Follow Setup Guide**: Use `/docs/deployment/development-setup.md`
+### Quick Start (UI Development)
+```bash
+# Clone the repository
+git clone https://github.com/hasmatt1066/drawnofwar.git
+cd drawnofwar
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open http://localhost:3000
+```
+
+### Development Approach
+We're following a **UI-First approach** with mock services:
+1. Build complete UI with realistic mock data
+2. Validate user experience and flows
+3. Integrate real backend services gradually
+
+See [ADR-004](docs/architecture/decisions/004-ui-first-development.md) for details.
+
+### Key Documentation
+1. **Architecture**: `/docs/architecture/system-overview.md`
+2. **Mock Services**: `/docs/technical/mock-services-design.md`
+3. **User Journey**: `/docs/user-stories/complete-user-journey.md`
+4. **Progress Tracking**: `/docs/PROJECT-PROGRESS.md`
 
 ## 🎨 Key Features
 
